@@ -39,7 +39,7 @@ const Registration = () => {
               <div className="modal-left">
                 <h1 className="modal-title">Welcome!</h1>
                 <p className="modal-desc">
-                  To the thapa technical website for programmers.
+                  To all the programmers.
                 </p>
                 <form onSubmit={handleSubmit}>
                   <div className="input-block">
