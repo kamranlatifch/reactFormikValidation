@@ -19,7 +19,7 @@ const Registration = () => {
       validationSchema: signUpSchema,
       onSubmit: (values, action) => {
         console.log(
-          "🚀 ~ file: Registration.jsx ~ line 11 ~ Registration ~ values",
+          "🚀 ~ file:Registration.jsx ~ line 11 ~ Registration ~ values",
           values
         );
         action.resetForm();
