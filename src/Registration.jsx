@@ -4,6 +4,7 @@ import { GlobalStyle } from "./Styles/globalStyles";
 import { useFormik } from "formik";
 import { signUpSchema } from "./schemas";
 
+
 const initialValues = {
   name: "",
   email: "",
@@ -28,7 +29,7 @@ const Registration = () => {
     "🚀 ~ file: Registration.jsx ~ line 25 ~ Registration ~ errors",
     errors
   );
-
+ 
   return (
     <>
       <GlobalStyle />
